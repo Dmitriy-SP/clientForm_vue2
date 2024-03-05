@@ -7,7 +7,7 @@ import vue2 from '@vitejs/plugin-vue2'
 // https://vitejs.dev/config/
 export default defineConfig({
   // base: "/clientForm_vue2/",
-  publicPath: "/clientForm_vue2/",
+  publicPath: "",
   plugins: [
     vue2(),
     legacy({
